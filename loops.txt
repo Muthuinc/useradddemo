@@ -1,0 +1,53 @@
+Exploring the synatx for shell looping statements
+
+FOR LOOP
+
+Syntax -1
+ 
+for (( initialise; comparison/condition; increament));
+  do
+      [ Statements ..... ]
+done
+
+Syntax -2 loop through the array
+
+y=( elements of array )
+for x in y
+  do
+     [ Statements .....  ]
+done
+
+Syntax -3 loop through a word or file in a directory
+
+for x in hello or  for x in $path of a directory
+  do
+     [ Statements .....  ]
+done
+
+					--------------
+					
+WHILE LOOP
+
+Syntax 
+
+while [ condition ] ;
+do
+   [ Statements .....   ]
+done
+
+					---------------
+					
+IF LOOP
+
+Syntax -1  						Syntax -2
+
+if [ condition ];					if [ condition ];
+then							then
+   [ statements .....  ]				   [ statements .....  ]
+fi							else 
+							   [ statements .....  ]
+							fi
+
+					--------------
+
+
